@@ -22,16 +22,16 @@ body {
   stroke: #8deaff;
 }
 
-.line1 {
+.top {
   transform: rotate(0deg);
   transform-origin: 26px 40px;
 }
 
-.line2 {
+.middle {
   stroke-dasharray: 60 60;
 }
 
-.line3 {
+.bottom {
   transform: rotate(0deg);
   transform-origin: 26px 60px;
 }
@@ -40,15 +40,15 @@ body {
   stroke: #ff7c7c;
 }
 
-.menu:hover .line1 {
+.menu:hover .top {
   transform: rotate(45deg);
 }
 
-.menu:hover .line2 {
+.menu:hover .middle {
   stroke-dasharray: 1 60;
   stroke-dashoffset: -30;
 }
 
-.menu:hover .line3 {
+.menu:hover .bottom {
   transform: rotate(-45deg);
 }
