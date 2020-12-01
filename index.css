@@ -17,14 +17,14 @@ body {
 
 .line {
   stroke-width: 6;
-  transition: all 500ms ease;
   stroke-linecap: round;
   stroke: #8deaff;
+  transition: all 500ms ease;
 }
 
 .top {
-  transform: rotate(0deg);
   transform-origin: 26px 40px;
+  transform: rotate(0deg);
 }
 
 .middle {
@@ -32,8 +32,8 @@ body {
 }
 
 .bottom {
-  transform: rotate(0deg);
   transform-origin: 26px 60px;
+  transform: rotate(0deg);
 }
 
 .menu:hover .line {
