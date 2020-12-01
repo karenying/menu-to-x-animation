@@ -19,7 +19,7 @@ body {
   stroke-width: 6;
   stroke-linecap: round;
   stroke: #8deaff;
-  transition: all 500ms ease;
+  transition: all 500ms;
 }
 
 .top {
